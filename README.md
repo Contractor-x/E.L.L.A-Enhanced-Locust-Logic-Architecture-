@@ -105,7 +105,7 @@ No additional installation needed.
 | Memory Usage | ≤ 250MB |
 
 ---
-
+<!--
 ## Contributors
 
 | Role | Member |
@@ -113,6 +113,7 @@ No additional installation needed.
 | Lead Developer | You (Student) |
 | DB Support | [Teammate A] |
 | System Testing | [Teammate B] |
+-->
 <!--
 ---
 
