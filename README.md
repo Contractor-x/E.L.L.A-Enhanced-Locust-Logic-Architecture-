@@ -1,9 +1,9 @@
-# 🛰️ Project Name: **E.L.L.A**  
+# Project Name: **E.L.L.A**  
 ### *(Enhanced Locust Logic Architecture)*
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 **E.L.L.A (Enhanced Locust Logic Architecture)** is a Python-based system designed for **high-speed, intelligent data recovery** from local databases and distributed servers. Inspired by the **collective intelligence and efficiency of locust swarms**, this architecture models nature’s decentralization to provide fault-tolerant, parallel, and ultra-responsive data retrieval.
 
@@ -11,7 +11,7 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 ---
 
-## 🚀 Project Goals
+## Project Goals
 
 - Deliver a **lightweight yet powerful system** for request-driven data recovery
 - Use **nature-inspired algorithms** (like swarm routing and redundancy mapping)
@@ -20,7 +20,7 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Details |
 |----------|---------|
@@ -31,7 +31,7 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 ---
 
-## 🧩 Core Features
+## Core Features
 
 - ✅ Swarm-inspired **dynamic caching system**
 - ✅ Intelligent **parallel thread recovery**
@@ -41,7 +41,7 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 | File | Purpose |
 |------|---------|
@@ -53,7 +53,7 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 ---
 
-## 🔄 Data Recovery Workflow
+## Data Recovery Workflow
 
 1. **Receive request** from user/system.
 2. **Check cache layer** (memory-level hit).
@@ -63,7 +63,7 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 ---
 
-## 🗂️ Setup Instructions
+##  Setup Instructions
 
 ```bash
 git clone https://github.com/your-repo/ella
@@ -95,7 +95,7 @@ No additional installation needed.
 -->
 ---
 
-## 📈 Performance Metrics (Targets)
+## Performance Metrics (Targets)
 
 | Metric | Goal |
 |--------|------|
@@ -106,7 +106,7 @@ No additional installation needed.
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 | Role | Member |
 |------|--------|
