@@ -1,0 +1,80 @@
+import threading
+import queue
+import time
+import logging
+import random
+
+# Setup logger
+logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
+
+# Queues for data routing
+data_queue = queue.Queue()
+result_queue = queue.Queue()
+
+# === Fallback Logic ===
+def fallback_fetch(primary_request, backup_response):
+    return f"Recovered for {primary_request} >> {backup_response}"
+
+# Simulated data fetch functions
+def fetch_from_primary(source_id, request):
+    if random.choice([True, False, False]):  # Simulate 1-in-3 failure
+        raise ConnectionError("Primary source failed")
+    time.sleep(random.uniform(0.2, 0.4))  # Simulate variable latency
+    return f"Primary Result from Source-{source_id} for {request}"
+
+def fetch_from_backup(source_id, request):
+    time.sleep(random.uniform(0.1, 0.2))
+    return f"Backup Result from Source-{source_id} for {request}"
+
+# === Worker Thread ===
+def data_worker(source_id):
+    while True:
+        try:
+            request = data_queue.get(timeout=2)
+            start_time = time.perf_counter()
+
+            try:
+                result = fetch_from_primary(source_id, request)
+                logging.info(f"[Source-{source_id}] Primary successful for {request}")
+            except Exception as e:
+                logging.warning(f"[Source-{source_id}] Primary failed: {e}. Switching to fallback...")
+                backup_result = fetch_from_backup(source_id, request)
+                result = fallback_fetch(request, backup_result)
+
+            duration = time.perf_counter() - start_time
+            logging.info(f"[Source-{source_id}] Processed {request} in {duration:.2f}s")
+            result_queue.put(result)
+            data_queue.task_done()
+        except queue.Empty:
+            break
+
+# === Main Router Controller ===
+def run_router(num_sources=3, num_requests=15):
+    threads = []
+
+    # Start worker threads
+    for i in range(num_sources):
+        t = threading.Thread(target=data_worker, args=(i,))
+        t.start()
+        threads.append(t)
+
+    # Enqueue data requests
+    for request_id in range(num_requests):
+        data_queue.put(f"DataRequest-{request_id}")
+
+    # Wait for all data to be processed
+    data_queue.join()
+
+    # Ensure all threads complete
+    for t in threads:
+        t.join()
+
+    # Output results
+    while not result_queue.empty():
+        print(result_queue.get())
+
+# === Entry Point ===
+if __name__ == "__main__":
+    logging.info(" E.L.L.A V3 Threaded Router Initializing...")
+    run_router(num_sources=4, num_requests=20)
+    logging.info(" E.L.L.A Mission Complete.")
