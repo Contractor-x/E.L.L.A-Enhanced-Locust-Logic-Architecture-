@@ -110,8 +110,8 @@ No additional installation needed.
 
 | Role | Member |
 |------|--------|
-| Lead Developer | You (Student) |
-| DB Support | [Teammate A] |
+| Lead Developer, DB manager | You (Student) |
+
 
 -->
 <!--
