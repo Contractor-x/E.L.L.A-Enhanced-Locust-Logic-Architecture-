@@ -106,7 +106,7 @@ No additional installation needed.
 
 ---
 <!--
-## Contributors
+## Contributor
 
 | Role | Member |
 |------|--------|
