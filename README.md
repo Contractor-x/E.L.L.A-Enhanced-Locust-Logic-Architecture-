@@ -112,7 +112,7 @@ No additional installation needed.
 |------|--------|
 | Lead Developer | You (Student) |
 | DB Support | [Teammate A] |
-| System Testing | [Teammate B] |
+
 -->
 <!--
 ---
