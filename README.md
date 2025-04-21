@@ -106,9 +106,7 @@ No additional installation needed.
 
 ---
 <!--
-## Contributor
-
-| Role | Member |
+## Contributo
 |------|--------|
 | Lead Developer, DB manager | You (Student) |
 
