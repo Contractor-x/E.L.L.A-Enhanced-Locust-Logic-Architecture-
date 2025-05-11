@@ -107,7 +107,7 @@ No additional installation needed.
 <!--
 ## Contributo
 |------|--------|
-| Lead Developer, DB manager | You (Stud
+| Lead Developer, DB 
 
 
 -->
