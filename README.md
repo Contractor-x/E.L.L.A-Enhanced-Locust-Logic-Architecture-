@@ -63,18 +63,10 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 ---
 
-##  Setup Instructions
-
-```bash
-git clone https://github.com/your-repo/ella
-cd ella
-python ella_core.py
-```
-
 No additional installation needed.
 
 ---
-<!--
+
 ## 📅 Project Roadmap
 
 ### ✅ Phase 1: Research & Planning
