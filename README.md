@@ -107,14 +107,4 @@ No additional installation needed.
 
 
 
--->
-<!--
----
-1111111111111111111111
-## 🧾 Notes
 
-This project is a functional academic prototype. Future extensions may include:
-- External API support
-- NoSQL/Cloud DB integrations
-- Machine-learning powered prefetching
--->
