@@ -82,7 +82,7 @@ No additional installation needed.
 - Benchmark recovery speeds
 
 ### 🚀 Phase 4: Deployment
-- Package and document
+- Package and documentation
 
 ---
 
