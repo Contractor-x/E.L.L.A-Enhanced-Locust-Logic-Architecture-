@@ -91,8 +91,7 @@ No additional installation needed.
 
 ### 🚀 Phase 4: Deployment
 - Package and document
-- Present & defend for final evaluation
--->
+
 ---
 
 ## Performance Metrics (Targets)
