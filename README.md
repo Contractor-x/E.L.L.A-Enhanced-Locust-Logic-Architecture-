@@ -104,10 +104,7 @@ No additional installation needed.
 | Memory Usage | ≤ 250MB |
 
 ---
-<!--
-## Contributo
-|------|--------|
-| Lead Developer, DB 
+
 
 
 -->
