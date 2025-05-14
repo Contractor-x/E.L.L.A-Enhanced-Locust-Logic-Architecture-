@@ -11,7 +11,7 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 ---
 
-## Project Goals
+## My Project Goals
 
 - Deliver a **lightweight yet powerful system** for request-driven data recovery
 - Use **nature-inspired algorithms** (like swarm routing and redundancy mapping)
