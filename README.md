@@ -73,7 +73,7 @@ No additional installation needed.
 - Study biological swarm behavior
 - Design modular architecture
 
-### 🔄 Phase 2: Development
+### Phase 2: Development
 - Implement threading and caching
 - Build database and failover routines
 
