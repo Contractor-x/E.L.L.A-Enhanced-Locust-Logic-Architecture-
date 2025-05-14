@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-**E.L.L.A Also known as the (Enhanced Locust Logic Architecture)** is a Python-based middleware system designed for **high-speed, intelligent data recovery** from local databases and distributed servers. Inspired by the **collective intelligence and efficiency of locust swarms**, this architecture models nature’s decentralization to provide fault-tolerant, parallel, and ultra-responsive data retrieval.
+**E.L.L.A Also known as the (Enhanced Locust Logic Architecture)** is a Python-based middleware system designed for **high-speed, intelligent data recovery** from local databases and distributed servers. Inspired by the **collective intelligence and efficiency of the locust swarms**, this architecture models nature’s decentralization to provide fault-tolerant, parallel, and ultra-responsive data retrieval.
 
 This project is ideal for scenarios requiring rapid access to large or fragmented datasets—such as search systems, logging infrastructures, or backup recovery solutions—built entirely with native Python modules (no external libraries).
 
