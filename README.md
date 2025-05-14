@@ -35,7 +35,7 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 -  Swarm-inspired **dynamic caching system**
 -  Intelligent **parallel thread recovery**
-- ✅ Redundant memory mapping with **priority routing**
+-  Redundant memory mapping with **priority routing**
 - ✅ Simple plug-and-play data access interface
 - ✅ Fully autonomous **fallback routines** on failure
 
