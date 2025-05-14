@@ -81,7 +81,7 @@ No additional installation needed.
 - Stress test with large datasets
 - Benchmark recovery speeds
 
-### 🚀 Phase 4: Deployment
+### Phase 4: Deployment
 - Package and documentation
 
 ---
