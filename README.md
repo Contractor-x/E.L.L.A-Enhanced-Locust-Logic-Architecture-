@@ -67,9 +67,9 @@ No additional installation needed.
 
 ---
 
-## 📅 Project Roadmap
+## Suggested Project Roadmap
 
-### ✅ Phase 1: Research & Planning
+### Phase 1: Research & Planning
 - Study biological swarm behavior
 - Design modular architecture
 
