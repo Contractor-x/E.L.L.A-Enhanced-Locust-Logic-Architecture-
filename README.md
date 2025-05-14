@@ -13,7 +13,7 @@ This project is ideal for scenarios requiring rapid access to large or fragmente
 
 ## My Project Goals
 
-- Deliver a **lightweight yet powerful system** for request-driven data recovery
+- Deliver a **lightweight yet powerful system** for request-driven data recovery system.
 - Use **nature-inspired algorithms** (like swarm routing and redundancy mapping)
 - Minimize data access latency with **threaded cache-first architecture**
 - Build an educational and scalable solution suitable for academic and enterprise use
