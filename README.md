@@ -1,6 +1,6 @@
  # Project Name: **E.L.L.A**  
 ### *(Enhanced Locust Logic Architecture)*
-## Aims to be used in the DIVERSIFY project
+## MAIN AIM: To be used in the DIVERSIFY project
 ---
 
 ## Project Overview
